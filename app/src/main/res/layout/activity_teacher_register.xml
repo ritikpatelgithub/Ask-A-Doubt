@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Teacher_Register">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:textColor="#0DAF14"
+        android:layout_gravity="center_horizontal"
+        android:textSize="48dp"/>
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/edtMail"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:hint="Enter Your E-mail"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtP"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:hint="Pasword"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtConfirm"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:hint="Confirm Pasword"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:hint="Branch"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edtDomains"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:background="@drawable/border_line"
+        android:paddingLeft="15dp"
+        android:hint="Expert Domains"
+        android:textSize="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="25dp"
+        android:text="Register"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_background"/>
+
+
+</LinearLayout>

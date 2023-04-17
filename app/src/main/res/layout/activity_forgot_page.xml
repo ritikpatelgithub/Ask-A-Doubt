@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Forgot_page">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Your Password"
+        android:textSize="42sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#07930D"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border_line"
+        android:hint="Enter your mail"
+        android:paddingLeft="9dp"
+        android:textSize="30dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:text="Done"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/btn_background"
+
+        />
+
+
+</LinearLayout>
